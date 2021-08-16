@@ -3,6 +3,7 @@
     <head>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -25,7 +26,7 @@
                 <li><a href="#clients">Clients</a></li>
                 <li><a href="#services">Service</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -38,11 +39,11 @@
         <li><a href="#clients">Clients</a></li>
         <li><a href="#services">Service</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
       <!-- slider -->
-      <div class="slider">
+      <!-- <div class="slider">
         <ul class="slides">
           <li>
             <img src="img/slider/1.png">
@@ -66,32 +67,42 @@
             </div>
           </li>
         </ul>
+      </div> -->
+
+      <!-- profil -->
+      <div id="profil" class="profil scrollspy">
+          <div class="container">
+            <div class="row">
+              <h2 class="center"><strong>Front-end Web Developer</strong></h2>
+              <p class="center">I design and code beautiful simple things, and I love what I do</p>
+              <img src="" alt="" class="col m4 s4 avatar center">
+              <img src="img/avatar/avatarnoback.png" alt="avatar" class="col m4 s4 avatar center">
+              <img src="" alt="" class="col m4 s4 avatar center">
+            </div>
+          </div>
       </div>
+
 
       <!-- about us -->
       <section id="about" class="about scrollspy">
         <div class="container">
           <div class="row">
-            <h3 class="center light">About Us</h3>
-            <div class="col m6 light">
-              <h5>We Are Profesionals</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 class="center light">About Me</h3>
+            <div class="light">
+              <h5 class=" center  ">Hi, I'm Alfatih. Nice to meet you!</h5>
+              <p class="center col m12" id="p">I am a frontend developer and web designer, I love programming and designing, currently I'm focused on web development and programming, I'm open to freelance work, please contact me if you are interested in working with me.</p>
             </div>
-            <div class="col m6 light">
-              <p>WEB DEVELOPMENT</p>
+            <h5 class="center light">Skill</h5>
+            <div class="light">
+              <p>HTML</p>
               <div class="progress">
                 <div class="determinate grey darken-4" style="width: 90%"></div>
               </div>
-              <p>MOBILE APP DEVELOPMENT</p>
+              <p>CSS</p>
               <div class="progress">
                 <div class="determinate grey darken-4" style="width: 85%"></div>
               </div>
-              <p>GAME DEVELOPMENT</p>
+              <p>JavaScript</p>
               <div class="progress">
                 <div class="determinate grey darken-4" style="width: 70%"></div>
               </div>
@@ -105,7 +116,7 @@
         <div class="parallax"><img src="img/slider/4.png"></div>
 
         <div class="container clients">
-          <h3 class="center light">Our Clients</h3>
+          <h3 class="center light">Clients</h3>
           <div class="row">
             <div class="col m4 s12 center">
               <img src="img/clients/gojek.png">
@@ -124,26 +135,32 @@
       <section id="services" class="services grey lighten-3 scrollspy">
         <div class="container">
           <div class="row">
-            <h3 class="light center">Our Services</h3>
+            <h3 class="light center">Services</h3>
             <div class="col m4 s12">
               <div class="card-panel center">
-                <i class="material-icons medium grey-text text-darken-4">desktop_windows</i>
-                <h5>Web Development</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci dicta blanditiis sunt, quis ab, dolor nemo molestiae autem explicabo provident pariatur fugit, laudantium maxime sapiente ex eaque, quibusdam assumenda?</p>
+                <i class="material-icons medium grey-text text-darken-4">create</i>
+                <h5><strong>Design</strong></h5>
+                <p id="description">I like simple design themes, clean design patterns and flat designs.</p>
+                <h6><strong>Things I usually design:</strong></h6>
+                <p>Web, UX, UI</p>
               </div>
             </div>
             <div class="col m4 s12">
               <div class="card-panel center">
-                <i class="material-icons medium">developer_mode</i>
-                <h5>Mobile App</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci dicta blanditiis sunt, quis ab, dolor nemo molestiae autem explicabo provident pariatur fugit, laudantium maxime sapiente ex eaque, quibusdam assumenda?</p>
+                <i class="material-icons medium">code</i>
+                <h5><strong>Code</strong></h5>
+                <p id="description">Building a website requires markup languages and script</p>
+                <h6><strong>Lenguages I speak:</strong></h6>
+                <p>HTML, CSS, JS</p>
               </div>
             </div>
             <div class="col m4 s12">
               <div class="card-panel center">
-                <i class="material-icons medium">games</i>
-                <h5>Game Development</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci dicta blanditiis sunt, quis ab, dolor nemo molestiae autem explicabo provident pariatur fugit, laudantium maxime sapiente ex eaque, quibusdam assumenda?</p>
+                <i class="material-icons medium">view_module</i>
+                <h5><strong>Framework</strong></h5>
+                <p id="description">create projects with frameworks to be completed faster</p>
+                <h6><strong>Frameworks I'm good at:</strong></h6>
+                <p>Materialize,  Bootstrap 5</p>
               </div>
             </div>
           </div>
@@ -188,10 +205,11 @@
               <div class="card-panel grey darken-4 center white-text">
                 <i class="material-icons">email</i>
                 <h5>Contact</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, et quae </p>
+                <p>Interested in working with me?</p>
+                <p>Please contact me</p>
               </div>
               <ul class="collection with-header">
-                <li class="collection-header"><h4>Our Office</h4></li>
+                <li class="collection-header"><h4>Office</h4></li>
                 <li class="collection-item">Alfath Dev</li>
                 <li class="collection-item">Jl. Makmur Gg. Dahlia 3</li>
                 <li class="collection-item">North Sumatra, Indonesia</li>
@@ -202,18 +220,22 @@
                 <div class="card-panel">
                   <h5>Please fill out this form</h5>
                   <div class="input-field">
+                    <i class="material-icons prefix">account_circle</i>
                     <input type="text" name="name" id="name" required="" class="validate">
                     <label for="name">Name</label>
                   </div>
                   <div class="input-field">
+                    <i class="material-icons prefix">email</i>
                     <input type="email" name="email" id="email" class="validate">
                     <label for="email">Email</label>
                   </div>
                   <div class="input-field">
+                    <i class="material-icons prefix">phone</i>
                     <input type="text" name="phone" id="phone" required="" class="validate">
                     <label for="phone">Phone Number</label>
                   </div>
                   <div class="input-field">
+                    <i class="material-icons prefix">message</i>
                     <textarea name="message" id="message" class="materialize-textarea"></textarea>
                     <label for="message">Message</label>
                   </div>
@@ -227,7 +249,7 @@
 
       <!-- footer -->
       <footer class="grey darken-4 center white-text">
-        <p class="flow-text"><i class="material-icons">copyright</i> Alfath Dev | Copyright 2021.</p>
+        <p class="flow-text"><i class="material-icons prefix">copyright</i> Alfath Dev | Copyright 2021.</p>
       </footer>
 
 
